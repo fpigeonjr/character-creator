@@ -4,8 +4,7 @@
 }
 
 .maxWidthWrapper {
-  max-width: 1200px;
-  margin: 0 auto;
+  position: relative;
 }
 
 .header {
@@ -36,4 +35,13 @@
 
 .controlColumn {
   max-width: 50%;
+}
+
+.perspectiveEffect {
+  position: fixed;
+  top: 60%;
+  left: 0;
+  height: 40%;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
 }
