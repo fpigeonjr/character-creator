@@ -28,10 +28,10 @@
 
 .characterWrapper {
   position: absolute;
-  top: 8rem;
-  right: 0;
+  top: 15%;
+  left: 60%;
   min-height: 500px;
-  width: 35%;
+  bottom: 5%;
 }
 
 .controlColumn {
