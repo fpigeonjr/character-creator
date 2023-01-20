@@ -10,7 +10,7 @@ Desktop:
 
 For this workshop, we're only targeting desktops (although if you're so inclined, creating a mobile variant would make a great stretch goal!).
 
-> Protip: If you're reading this in VS Code, open the Command Palette (Cmd + Shift + P) and select “Markdown: Open Preview to the Side”. That way, you can see all the images in this document!
+> Protip: This is built in now
 
 ## Setup Instructions
 
@@ -53,14 +53,10 @@ This project uses **CSS Modules**. CSS modules are ultimately very similar to va
 
 ```js
 /* Something.js */
-import styles from './Something.module.css';
+import styles from "./Something.module.css"
 
 function Something() {
-  return (
-    <div className={styles.wrapper}>
-      I'll be 500px wide!
-    </div>
-  );
+  return <div className={styles.wrapper}>I'll be 500px wide!</div>
 }
 ```
 
